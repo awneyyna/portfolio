@@ -1,0 +1,74 @@
+/* font & reset */
+body{
+  margin: 0;
+  font-family: 'poppins' , sans-serif;
+  background: linear-gradient(to bottom, #fbeee6, #f3e7da);
+  color: #3e3e3e;
+}
+
+/* Hero Sectio */
+.hero{
+  height: 100vh;
+  position: relative;
+  background:
+url('https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+  display: flex;
+  align-item: center;
+  justify-content: center;
+}
+
+.overlay{
+  background-color: rgba(255, 240,230, 0.7);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  position: relative;
+  text-align: center;
+}
+
+.profile-img{
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #e8cfc0;
+  margin-bottom: 10px
+}
+
+h1{
+  font-size:2.5em;
+  color: #9c7c6b;
+}
+
+p{
+  color: #6f4e37;
+}
+
+/* info section */
+.info{
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  background-color: #fffaf7;
+} 
+
+.card{
+  background: #fdf4ef;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(180, 140, 120, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+a {
+  text-decoration: none;
+  color: #a9715d;
+  font-weight: bold:
+}
