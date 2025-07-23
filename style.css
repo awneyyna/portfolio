@@ -72,3 +72,9 @@ a {
   color: #a9715d;
   font-weight: bold:
 }
+
+.fade-in, .slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
